@@ -1,0 +1,164 @@
+.parallaxx {
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/back.png)
+}
+
+.parallaxx div {
+    padding-top: 350px;
+    text-align: center;
+}
+.parallaxx h1 {
+    font-size:50px;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    font-weight: 900;
+}
+.parallaxx p{
+    color: white;
+    font: 17 Arial;
+    padding-bottom: 45px;
+}
+a.bottom {
+    color: black;
+    background: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+a.bottom:hover {
+    background: gray;
+    color: white;
+}
+.box-subconteudo {
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+
+
+}
+.box-subconteudo h1 {
+    font: 40px Arial;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+.box-subconteudo p {
+    font: 16px Arial;
+    padding-bottom: 10px;
+}
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+ }
+ 
+ body {
+    padding-bottom: 50px;
+    background-color: rgba(255, 250, 250, 0.972);
+    min-height: 1600px;
+ }
+ .page-container {
+    padding: 20px 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    
+ }
+ 
+ .parallax { 
+    background-attachment: fixed;     
+    
+ }
+ 
+ .imgn {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ }
+ 
+ 
+
+ 
+ .redentor {
+    background-image:url(../img/redentor.png);
+ }
+ 
+ .petra {
+    background-image: url(../img/petra.png);
+ }
+ 
+ .chichen {
+    background-image: url(../img/chichen.png);
+ }
+ .muralha {
+    background-image: url(../img/muralha.png);
+ }
+ 
+ .picchu {
+    background-image: url(../img/picchu.png);
+ }
+ 
+ .coliseu {
+    background-image: url(../img/coliseu.png);
+ }
+ 
+ .taj {
+    background-image: url(../img/taj.png);
+ }
+ 
+ .stonehenge {
+    background-image: url(../img/stonehenge.png);
+ }
+
+ .neuschwanstein {
+    background-image: url(../img/neuschwanstein.png);
+ }
+
+ .piramide {
+    background-image: url(../img/piramide.png);
+ }
+ 
+ .rellax {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+ }
+ .page-container h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+    margin: 0 0 20px 0;
+    color: #222222;
+ }
+ 
+ .page-container p {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    font-size: 18px;
+    margin: auto;
+    color: #222222;
+    
+ }
+ 
+ .page-container p:not(:last-of-type) {
+    margin-bottom: 24px;
+ }
