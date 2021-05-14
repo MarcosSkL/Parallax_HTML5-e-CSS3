@@ -1,5 +1,5 @@
-.parallaxx {
-    height: 1000px;
+.parallaxx2 {
+    height: 950px;
     background-attachment: fixed;
     background-position: center top;
     background-repeat: no-repeat;
@@ -7,17 +7,17 @@
     background-image: url(../img/back.png)
 }
 
-.parallaxx div {
+.parallaxx2 div {
     padding-top: 350px;
     text-align: center;
 }
-.parallaxx h1 {
+.parallaxx2 h1 {
     font-size:50px;
     font-family: 'Poppins', sans-serif;
     color:white;
     font-weight: 900;
 }
-.parallaxx p{
+.parallaxx2 p{
     color: white;
     font: 17 Arial;
     padding-bottom: 45px;
@@ -35,26 +35,36 @@ a.bottom {
 a.bottom:hover {
     background: gray;
     color: white;
+    
 }
+.subconteudo {
+   background-image: url(../img/subtit.png);
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   height: 20vh;
+   padding: 18%;
+
+}
+
 .box-subconteudo {
-    width: 80%;
-    margin: 0 auto;
-    padding: 100px 0;
-
-
+    width: 100%;
+    padding: auto;
+    position: relative;
+   
 }
 .box-subconteudo h1 {
-    font: 40px Arial;
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-weight: 600;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
+    background-color: rgb(0, 0, 0, 0.5);
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 6px;
+    font-size: 30px;
+    
 }
-.box-subconteudo p {
-    font: 16px Arial;
-    padding-bottom: 10px;
-}
-
-
 
 html, body {
     margin: 0;
@@ -87,15 +97,12 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 660px;
+    height: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
  }
- 
- 
-
  
  .redentor {
     background-image:url(../img/redentor.png);
